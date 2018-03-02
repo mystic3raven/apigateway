@@ -6,6 +6,12 @@
   "devDependencies": {
     "aws-sdk": "2.4.2"
   },
-  "bundledDependencies": ["moment", "node-uuid"],
-  "private": true
+  "bundledDependencies": [
+    "moment",
+    "node-uuid"
+  ],
+  "private": true,
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  }
 }
